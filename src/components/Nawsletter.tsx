@@ -29,7 +29,7 @@ export const Newsletter = ({ onValidated, status, message }: INewsletter) => {
 
   return (
     <Col lg={12}>
-      <div className='newsletter-bx'>
+      <div className='newsletter-bx wow slideInUp'>
         <Row>
           <Col lg={12} md={6} xl={5}>
             <h3>Subscribe to our Newsletter</h3>

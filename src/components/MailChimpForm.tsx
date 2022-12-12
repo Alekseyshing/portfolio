@@ -2,7 +2,7 @@ import MailchimpSubscribe, { EmailFormFields } from "react-mailchimp-subscribe"
 import { Newsletter } from "./Nawsletter"
 
 export const MailChimpForm = () => {
-  const postUrl = `${process.env.REACT_APP_MAIL_CHIMP_URL}?u=${process.env.REACT_APP_MAIL_CHIMP_U}$id=${process.env.REACT_APP_MAIL_CHIMP_ID}`
+  const postUrl = `${import.meta.env.VITE_APP_MAILCHIMP_URL}?u=${import.meta.env.VITE_APP_MAILCHIMP_U}&id=${import.meta.env.VITE_APP_MAILCHIMP_ID}`
 
   return (
     <>
